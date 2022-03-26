@@ -4,16 +4,15 @@ import { Switch, Route } from 'react-router-dom'
 
 // pages
 import Home from './components/pages/Home/Home';
+import Project from './components/pages/Project/Project';
 
 function App() {
   return (
     <>
       <Switch>
         <Route exact path="/" component={Home} />
-        {/* <Route exact path="/courses" component={PageCourses} />
-        <Route exact path="/about" component={PageAbout} />
-        <Route exact path="/contact" component={PageContact} />
-        <Route path="/course/:courseId" component={Courses} /> */}
+        
+        <Route path="/project/:projectId" component={Project} />
       </Switch>
       
     </>
