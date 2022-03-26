@@ -6,10 +6,10 @@ function Intro() {
       <div className="container my-5" id="intro">
         <div className="row">
           <div className="col-sm-12 col-md-6 text-center">
-            <h2 className="text-primary">Full Stack Develop​er</h2>
+            <h3 className="text-primary">Full Stack Develop​er</h3>
             <div className="text-lg-start my-3">
               <p className="text-base">Olá meu nome e</p>
-              <h2 className="text-primary mb-3">Douglas da Silva Prado</h2>
+              <h3 className="text-primary mb-3">Douglas da Silva Prado</h3>
               <p>
                 Sou apaixonado pelo mundo da tecnologia. Faço Analise e
                 Desenvolvimento de Sistemas pela FAEL e estou em formação em

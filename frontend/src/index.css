@@ -12,14 +12,16 @@
 }
 
 h2{
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 700;
+    color: var(--secondary-color);
 }
 
 h3{
     font-size: 1.8rem ;
     font-weight: 400;
 }
+
 
 .text-primary{
     color: var(--primary-color) !important;
