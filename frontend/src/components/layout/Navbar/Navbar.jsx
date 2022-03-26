@@ -3,53 +3,53 @@ import "./Navbar.css";
 function Navbar() {
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div className="container-fluid">
-          <div className="container">
-            <button
-              className="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNavAltMarkup"
-              aria-controls="navbarNavAltMarkup"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span className="navbar-toggler-icon"></span>
-            </button>
-            <div
-              className="collapse navbar-collapse justify-content-lg-between"
-              id="navbarNavAltMarkup"
-            >
-              <div to="/" className="navbar-brand d-flex">
-                <img
-                  src="https://i.ibb.co/DM2fF8X/douglas-Foto.jpg"
-                  alt="rapaz sorrindo"
-                  width="64"
-                  height="64"
-                  className="rounded-circle"
-                />
-                <div className="mx-3">
-                  <h5>Douglas da Silva Prado</h5>
-                  <h5>Full Stack Developer</h5>
-                </div>
-              </div>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand d-flex align-items-center" href="#">
+            <img
+              src="https://i.ibb.co/DM2fF8X/douglas-Foto.jpg"
+              alt=""
+              width="64"
+              height="64"
+              class="d-inline-block mx-3 rounded-circle"
+            />
+            <span className="nav-primary-text d-none d-sm-block">Douglas da Silva Prado</span>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-              <div className="navbar-nav">
-                <a to="" className="nav-link">
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link nav-primary-text" aria-current="page" href="#">
                   Home
                 </a>
-                <a to="" className="nav-link">
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-primary-text" href="#">
                   Projetos
                 </a>
-                <a to="" className="nav-link">
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-primary-text" href="#">
                   Sobre
                 </a>
-                <a to="" className="nav-link">
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-primary-text" href="#">
                   Contato
                 </a>
-              </div>
-            </div>
+              </li>
+            </ul>
           </div>
         </div>
       </nav>

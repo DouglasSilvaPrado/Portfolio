@@ -1,0 +1,15 @@
+.nav-primary-text{
+    color: var(--primary-color) !important;
+}
+
+.nav-primary-text:hover{
+    color: var(--base-color) !important;
+}
+
+.navbar-nav .nav-link{
+    font-size: 1.2rem;
+}
+
+.bg-light{
+    background-color: var(--bg-primary) !important;
+}

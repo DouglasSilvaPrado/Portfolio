@@ -1,0 +1,32 @@
+/* =========================reset */
+
+:root{
+
+    --primary-color: #107beb;
+    --secondary-color: #3f3d56;
+    --base-color: #cfcfcf;
+    --bg-primary:#ffffff;
+    --bg-secondary:#e5e5e5;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+h2{
+    color: var(--secondary-color);
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+h3{
+    color: var(--base--color);
+    font-size: 1.8rem ;
+    font-weight: 400;
+}
+
+/* btn */
+
+.btn-primary{
+    background-color: var(--primary-color)
+}
+
+/* ================proejtos */
