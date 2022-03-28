@@ -6,8 +6,7 @@ function Project() {
     const params = useParams()
     return ( 
         <>
-           <ProjectById courseId={`${params.projectId}`} /> 
-           {console.log(params)}
+           <ProjectById projectId={`${params.projectId}`} /> 
         </>
      );
 }

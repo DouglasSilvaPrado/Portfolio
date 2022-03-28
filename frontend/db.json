@@ -1,0 +1,53 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "image": "https://github.com/DouglasSilvaPrado/Sistema-de-Fastfood/raw/main/SistemaDeVendas/src/imagens/TelaPrincipal.JPG",
+      "gif": "https://i.ibb.co/cCDjWL0/Sistema-Fast-Food.gif",
+      "name": "Sistema de Fastfood",
+      "description": "Sistema de FastFood Desktop para facilitar vendas no atendimento do Cliente",
+      "type": "App",
+      "code": "https://github.com/DouglasSilvaPrado/Sistema-de-Fastfood",
+      "deploy": "https://www.linkedin.com/feed/update/urn:li:activity:6891150094536630272/",
+      "tools": "Java MySQL",
+      "demo": "https://www.linkedin.com/feed/update/urn:li:activity:6891150094536630272/"
+    },
+    {
+        "id": 2,
+        "image": "https://thypix.com/wp-content/uploads/2021/02/pixel-sunglasses-17-700x407.png",
+        "gif": "https://i.ibb.co/cCDjWL0/Sistema-Fast-Food.gif",
+        "name": "Sistema de Academy",
+        "description": "Sistema de FastFood Desktop para facilitar vendas no atendimento do Cliente",
+        "type": "Site",
+        "code": "https://github.com/DouglasSilvaPrado/Sistema-de-Fastfood",
+        "deploy": "https://www.linkedin.com/feed/update/urn:li:activity:6891150094536630272/",
+        "tools": "Java MySQL",
+        "demo": "https://www.linkedin.com/feed/update/urn:li:activity:6891150094536630272/"
+    },
+    {
+      "id": 3,
+      "image": "https://99app.com/wp-content/themes/99app/assets/img/home__app.png",
+      "gif": "https://i.ibb.co/cCDjWL0/Sistema-Fast-Food.gif",
+      "name": "Sistema de APP",
+      "description": "Sistema de FastFood Desktop para facilitar vendas no atendimento do Cliente",
+      "type": "App",
+      "code": "https://github.com/DouglasSilvaPrado/Sistema-de-Fastfood",
+      "deploy": "https://www.linkedin.com/feed/update/urn:li:activity:6891150094536630272/",
+      "tools": "Java MySQL",
+      "demo": "https://www.linkedin.com/feed/update/urn:li:activity:6891150094536630272/"
+  },
+  {
+      "id": 4,
+      "image": "https://thypix.com/wp-content/uploads/2021/02/pixel-sunglasses-17-700x407.png",
+      "gif": "https://i.ibb.co/cCDjWL0/Sistema-Fast-Food.gif",
+      "name": "Sistema de Academy 2",
+      "description": "Sistema de FastFood Desktop para facilitar vendas no atendimento do Cliente",
+      "type": "Site",
+      "code": "https://github.com/DouglasSilvaPrado/Sistema-de-Fastfood",
+      "deploy": "https://www.linkedin.com/feed/update/urn:li:activity:6891150094536630272/",
+      "tools": "Java MySQL",
+      "demo": "https://www.linkedin.com/feed/update/urn:li:activity:6891150094536630272/"
+  }
+
+  ]
+}
