@@ -35,7 +35,7 @@ function Intro() {
 
           <div className="col-sm-12 col-md-6 text-center">
             <img
-              src="https://douglas-silva-prado.netlify.app/images/full-stack1.jpg"
+              src="https://douglas-silva-prado-4.netlify.app/images/full-stack1.jpg"
               className="img-fluid"
               alt=""
             />
