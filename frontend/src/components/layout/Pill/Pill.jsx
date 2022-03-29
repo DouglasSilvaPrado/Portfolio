@@ -1,12 +1,13 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import ProjectCard from "../ProjectCard/ProjectCard";
+import {BASE_URL} from "../../utils/Request"
 
 function Pill() {
   const [projects, setProjects] = useState([]);
 
   useEffect(() => {
-    axios.get(`http://localhost:5000/projects`).then((res) => {
+    axios.get(`${BASE_URL}/projects`).then((res) => {
       setProjects(res.data);
     });
   }, []);

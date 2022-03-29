@@ -1,12 +1,13 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
+import {BASE_URL} from "../../utils/Request"
 
 function ProjectById({ projectId }) {
 
   const [project, setProject] = useState([])
 
   useEffect(()=>{
-    axios.get(`http://localhost:5000/projects/${projectId}`)
+    axios.get(`${BASE_URL}/projects/${projectId}`)
     .then((res)=>{
       console.log(res.data)
       setProject(res.data)

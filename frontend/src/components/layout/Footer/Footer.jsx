@@ -21,23 +21,29 @@ function Footer() {
               <a href="https://github.com/DouglasSilvaPrado" target="_blank">
                 <i class="bi bi-github mx-1" style={{ fontSize: 40 }}></i>
               </a>
-              <a href="https://api.whatsapp.com/send?phone=5521990026135" target="_blank">
+              <a
+                href="https://api.whatsapp.com/send?phone=5521990026135"
+                target="_blank"
+              >
                 <i class="bi bi-whatsapp mx-1" style={{ fontSize: 40 }}></i>
               </a>
               <a href="mailto:douglassilvadaprado@gmail.com" target="_blank">
                 <i class="bi bi-envelope mx-1" style={{ fontSize: 40 }}></i>
               </a>
-              <a href="https://www.instagram.com/douglas_silva_prado/" target="_blank">
+              <a
+                href="https://www.instagram.com/douglas_silva_prado/"
+                target="_blank"
+              >
                 <i class="bi bi-instagram mx-1" style={{ fontSize: 40 }}></i>
               </a>
             </div>
           </div>
         </div>
-        <div className="container-fluid bg-dark mt-5">
-            <div className="container text-center text-white py-4">
-                <p>© Todos os Diretos Reservados - Douglas da Silva Prado.</p>
-            </div>    
+
+        <div className="container-fluid bg-dark mt-5 text-white py-4">
+          <p className="text-center">© Todos os Diretos Reservados - Douglas da Silva Prado.</p>
         </div>
+
       </footer>
     </>
   );
