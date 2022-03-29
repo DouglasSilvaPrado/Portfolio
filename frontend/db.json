@@ -2,52 +2,111 @@
   "projects": [
     {
       "id": 1,
-      "image": "https://github.com/DouglasSilvaPrado/Sistema-de-Fastfood/raw/main/SistemaDeVendas/src/imagens/TelaPrincipal.JPG",
-      "gif": "https://i.ibb.co/cCDjWL0/Sistema-Fast-Food.gif",
-      "name": "Sistema de Fastfood",
-      "description": "Sistema de FastFood Desktop para facilitar vendas no atendimento do Cliente",
-      "type": "App",
-      "code": "https://github.com/DouglasSilvaPrado/Sistema-de-Fastfood",
-      "deploy": "https://www.linkedin.com/feed/update/urn:li:activity:6891150094536630272/",
-      "tools": "Java MySQL",
-      "demo": "https://www.linkedin.com/feed/update/urn:li:activity:6891150094536630272/"
+      "image": "https://i.ibb.co/stK4wr6/rateanime.png",
+      "gif": "https://i.ibb.co/0f1pPh4/rate-Anime.gif",
+      "name": "RateAnime",
+      "description": "Site de avaliação de animes",
+      "type": "Site",
+      "code": "https://github.com/DouglasSilvaPrado/RateAnime",
+      "deploy": "https://rateanime.netlify.app/",
+      "tools": "Java Spring TypeScript React Bootstrap PostgreSQL",
+      "demo": "https://www.youtube.com/watch?v=d2AAidxZNrs&feature=youtu.be"
     },
     {
-        "id": 2,
-        "image": "https://thypix.com/wp-content/uploads/2021/02/pixel-sunglasses-17-700x407.png",
-        "gif": "https://i.ibb.co/cCDjWL0/Sistema-Fast-Food.gif",
-        "name": "Sistema de Academy",
-        "description": "Sistema de FastFood Desktop para facilitar vendas no atendimento do Cliente",
-        "type": "Site",
-        "code": "https://github.com/DouglasSilvaPrado/Sistema-de-Fastfood",
-        "deploy": "https://www.linkedin.com/feed/update/urn:li:activity:6891150094536630272/",
-        "tools": "Java MySQL",
-        "demo": "https://www.linkedin.com/feed/update/urn:li:activity:6891150094536630272/"
+      "id": 2,
+      "image": "https://i.ibb.co/jWPrT7F/Athena.png",
+      "gif": "https://i.ibb.co/fF5bBDj/athena-video-Demo.gif",
+      "name": "Projeto Athena",
+      "description": "O programa Athena visa ajudar meninas de 11 a 17 anos em situação de vunerabilidade apresentando a elas o mundo da tecnologia",
+      "type": "Site",
+      "code": "https://github.com/DouglasSilvaPrado/Project-Athena",
+      "deploy": "https://projetoathena.tk/",
+      "tools": "Java Spring PostgreSQL React Bootstrap Figma Kaban BrModelo Drawio",
+      "demo": "https://www.youtube.com/watch?v=rX2nrH0mE2c&ab_channel=Estudos"
     },
     {
       "id": 3,
-      "image": "https://99app.com/wp-content/themes/99app/assets/img/home__app.png",
+      "image": "https://i.ibb.co/wrftKsr/agencia.png",
+      "gif": "https://i.ibb.co/RzdnfbK/video-demo.gif",
+      "name": "Agencia de Viagem",
+      "description": "Projeto de Agencia de Viagem com cadastro de Viagem e Clientes",
+      "type": "Site",
+      "code": "https://github.com/DouglasSilvaPrado/Atividade-Pratica-modulo-5",
+      "deploy": "https://agencia-vg.netlify.app/",
+      "tools": "Spring React Bootstrap MongoDB",
+      "demo": "https://youtu.be/jJTaDyGlads"
+    },
+    {
+      "id": 4,
+      "image": "https://github.com/DouglasSilvaPrado/Caixa-Eletronico/raw/main/CaixaEletronico/src/imagens/Tela-Acesso.PNG",
+      "gif": "https://i.ibb.co/5x1jTF2/caixa-Editado.gif",
+      "name": "Caixa Eletrônico",
+      "description": "Sistema para fazer Deposito, Saque e visualizar Saldo.",
+      "type": "App",
+      "code": "https://github.com/DouglasSilvaPrado/Caixa-Eletronico",
+      "deploy": "",
+      "tools": "Java MySQL",
+      "demo": "https://www.youtube.com/watch?v=j4g4Q8s84rk"
+    },
+    {
+      "id": 5,
+      "image": "https://i.ibb.co/p39v3fj/Academy.png",
+      "gif": "https://i.ibb.co/v4FcMvQ/academy.gif",
+      "name": "Projeto Academy",
+      "description": "Sistema de Gerenciamento de Aluno",
+      "type": "Site",
+      "code": "https://github.com/DouglasSilvaPrado/Projeto-Academy",
+      "deploy": "",
+      "tools": "Spring Thymeleaf Bootstrap Mysql",
+      "demo": "https://www.youtube.com/watch?v=QBIFclPARxA&ab_channel=Estudos"
+    },
+    {
+      "id": 6,
+      "image": "https://github.com/DouglasSilvaPrado/Conversor-de-Moedas/raw/main/ConversorDeMoeda/imagens/TelaConversorMoedas.PNG",
+      "gif": "https://i.ibb.co/WD17Z4n/conversor-Moeda-Editado.gif",
+      "name": "Conversor de Moedas",
+      "description": "Programa para converter moedas em 16 tipos diferentes.",
+      "type": "App",
+      "code": "https://github.com/DouglasSilvaPrado/Conversor-de-Moedas",
+      "deploy": "",
+      "tools": "Python PyQt5 Requisição de API(requests) Pandas",
+      "demo": "https://www.youtube.com/watch?v=Lwi41ZR7cRo&ab_channel=Estudos"
+    },
+    {
+      "id": 7,
+      "image": "https://github.com/DouglasSilvaPrado/Sistema-de-Fastfood/blob/main/SistemaDeVendas/src/imagens/TelaPagamento.JPG?raw=true",
       "gif": "https://i.ibb.co/cCDjWL0/Sistema-Fast-Food.gif",
-      "name": "Sistema de APP",
-      "description": "Sistema de FastFood Desktop para facilitar vendas no atendimento do Cliente",
+      "name": "Sistema de Fastfood",
+      "description": "Sistema de Vendas de Lanches de FastFood",
       "type": "App",
       "code": "https://github.com/DouglasSilvaPrado/Sistema-de-Fastfood",
-      "deploy": "https://www.linkedin.com/feed/update/urn:li:activity:6891150094536630272/",
-      "tools": "Java MySQL",
-      "demo": "https://www.linkedin.com/feed/update/urn:li:activity:6891150094536630272/"
-  },
-  {
-      "id": 4,
-      "image": "https://thypix.com/wp-content/uploads/2021/02/pixel-sunglasses-17-700x407.png",
-      "gif": "https://i.ibb.co/cCDjWL0/Sistema-Fast-Food.gif",
-      "name": "Sistema de Academy 2",
-      "description": "Sistema de FastFood Desktop para facilitar vendas no atendimento do Cliente",
+      "deploy": "",
+      "tools": "Java JOptionPane",
+      "demo": "https://www.youtube.com/watch?v=AVIZPyGZxmI&feature=youtu.be"
+    },
+    {
+      "id": 8,
+      "image": "https://i.ibb.co/6XkKfYX/costs.png",
+      "gif": "https://i.ibb.co/ZWKKLxb/Costs.gif",
+      "name": "Costs",
+      "description": "Gerenciamento de projetos e serviços",
       "type": "Site",
-      "code": "https://github.com/DouglasSilvaPrado/Sistema-de-Fastfood",
-      "deploy": "https://www.linkedin.com/feed/update/urn:li:activity:6891150094536630272/",
-      "tools": "Java MySQL",
-      "demo": "https://www.linkedin.com/feed/update/urn:li:activity:6891150094536630272/"
-  }
-
+      "code": "https://github.com/DouglasSilvaPrado/costs",
+      "deploy": "",
+      "tools": "React json-server",
+      "demo": "https://www.youtube.com/watch?v=sHeu1xP9t7Y&ab_channel=Estudos"
+    },
+    {
+      "id": 9,
+      "image": "https://i.ibb.co/JtnHwmM/imovi.png",
+      "gif": "https://i.ibb.co/pRMDGBP/imovi.gif",
+      "name": "iMovi",
+      "description": "Homepage de Imoveis",
+      "type": "Site",
+      "code": "https://github.com/DouglasSilvaPrado/homepage-iMovi",
+      "deploy": "https://imovi.netlify.app/",
+      "tools": "HTML CSS Bootstrap",
+      "demo": "https://www.youtube.com/watch?v=afOvCwcpP8o&ab_channel=Estudos"
+    }
   ]
 }
