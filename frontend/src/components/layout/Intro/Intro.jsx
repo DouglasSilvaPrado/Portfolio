@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom'
 
 function Intro() {
   return (
@@ -16,18 +17,18 @@ function Intro() {
                 Desenvolvimento Full Stack pela Recode Pro 2021.
               </p>
               <div className="d-flex justify-content-between mt-5">
-                <a
-                  href="#"
+                <Link
+                  to="/projects"
                   className="btn btn-lg btn-outline-primary rounded-pill"
                 >
                   Projetos
-                </a>
-                <a
-                  href="#"
+                </Link>
+                <Link
+                  to="/contact"
                   className="btn btn-lg btn-primary rounded-pill"
                 >
                   Entre em Contato
-                </a>
+                </Link>
               </div>
             </div>
           </div>
