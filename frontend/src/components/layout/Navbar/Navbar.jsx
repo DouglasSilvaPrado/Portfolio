@@ -1,11 +1,13 @@
 import "./Navbar.css";
 
+import { Link } from 'react-router-dom'
+
 function Navbar() {
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top mb-5">
         <div className="container">
-          <a className="navbar-brand d-flex align-items-center" href="#">
+          <Link className="navbar-brand d-flex align-items-center" to={"/"}>
             <img
               src="https://i.ibb.co/DM2fF8X/douglas-Foto.jpg"
               alt=""
@@ -14,7 +16,7 @@ function Navbar() {
               className="d-inline-block mx-3 rounded-circle"
             />
             <span className="nav-primary-text d-none d-sm-block">Douglas da Silva Prado</span>
-          </a>
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -30,24 +32,24 @@ function Navbar() {
           <div className="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link nav-primary-text" aria-current="page" href="#">
+                <Link className="nav-link nav-primary-text" aria-current="page" to={"/"}>
                   Home
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link nav-primary-text" href="#">
+                <Link className="nav-link nav-primary-text" to="/projects">
                   Projetos
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link nav-primary-text" href="#">
+                <Link className="nav-link nav-primary-text" to="/about">
                   Sobre
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link nav-primary-text" href="#">
+                <Link className="nav-link nav-primary-text" to="/contact">
                   Contato
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

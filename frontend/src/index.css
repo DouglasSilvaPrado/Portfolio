@@ -31,6 +31,10 @@ h3{
     color: var(--base-color) !important;
 }
 
+.bg-base-color{
+    background-color: var(--base-color);
+}
+
 /* btn */
 
 .btn-primary{

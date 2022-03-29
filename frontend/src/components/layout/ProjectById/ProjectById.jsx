@@ -1,6 +1,5 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
-import Navbar from "../Navbar/Navbar";
 
 function ProjectById({ projectId }) {
 
@@ -18,9 +17,8 @@ function ProjectById({ projectId }) {
 
   return (
     <>
-      <Navbar />
       {/* Pagina individual de cada projeto */}
-      <div className="container my-5">
+      <div className="container my-5 pt-5">
         <div className="text-center">
           <h2>{project.name}</h2>
           <img

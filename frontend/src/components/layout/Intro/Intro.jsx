@@ -3,7 +3,7 @@ import React from "react";
 function Intro() {
   return (
     <>
-      <div className="container my-5" id="intro">
+      <div className="container my-5 pt-5" id="intro">
         <div className="row">
           <div className="col-sm-12 col-md-6 text-center">
             <h3 className="text-primary">Full Stack Develop​er</h3>

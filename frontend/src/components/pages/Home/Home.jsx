@@ -1,15 +1,18 @@
 import React from 'react'
 
-import Navbar from '../../layout/Navbar/Navbar';
+
 import Intro from '../../layout/Intro/Intro';
-import Projects from '../../layout/Projects/Projects';
+import About from '../About/About';
+import Contact from '../Contact/Contact';
+import Projects from '../Projects/Projects';
 
 function Home() {
     return ( 
         <>
-            <Navbar />
             <Intro />
-            <Projects />
+            <Projects/>
+            <About />
+            <Contact />
         </>
     );
 }
