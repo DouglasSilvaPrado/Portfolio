@@ -3,7 +3,7 @@ import React from 'react'
 function Contact() {
     return ( 
         <>
-            <div className="container my-5 pt-5" id="contato">
+            <div className="container my-5" id="contato">
                 <h2 className="text-center mb-5">
                     Entre em contato
                 </h2>
@@ -27,7 +27,7 @@ function Contact() {
                             <textarea placeholder="Digite sua Mensagem" rows="4" cols="50" name="mensagem" required={true} className="form-control my-3"></textarea>
                             <input type ="hidden" name ="_captcha" value ="false"/>
                             <input type ="hidden" name ="_autoresponse" value ="Mensagem enviada!"/>
-                            <input type ="hidden" name ="_next" value ="http://localhost:3000/"/>
+                            <input type ="hidden" name ="_next" value ="https://douglas-silva-prado.netlify.app/"/>
                             <button className="btn btn-primary form-control my-3">Enviar</button>
                         </div>
                     </form>

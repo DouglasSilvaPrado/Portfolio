@@ -3,7 +3,7 @@ import React from "react";
 function About() {
   return (
     <>
-      <div className="container-fluid my-5 py-5 bg-base-color">
+      <div className="container-fluid my-5 bg-base-color">
         <div className="container py-5">
           <div className="row">
             

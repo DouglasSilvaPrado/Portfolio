@@ -6,7 +6,7 @@ function Projects() {
 
   return (
     <>
-      <div className="container my-5 pt-5" >
+      <div className="container my-5" >
         <div className="text-center">
           <h2>Projetos</h2>
           <h3 className="text-base">Meus Projetos Pessoais e Profissionais</h3>
