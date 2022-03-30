@@ -12,9 +12,7 @@ function Intro() {
               <p className="text-base">Olá meu nome e</p>
               <h3 className="text-primary mb-3">Douglas da Silva Prado</h3>
               <p>
-                Sou apaixonado pelo mundo da tecnologia. Faço Analise e
-                Desenvolvimento de Sistemas pela FAEL e estou em formação em
-                Desenvolvimento Full Stack pela Recode Pro 2021.
+                Sou apaixonado pelo mundo da tecnologia. Sou formado pela RecodePro como desenvolvedor full stack e estou na graduação de Análise e Desenvolvimento de Sistemas pela FAEL.
               </p>
               <div className="d-flex justify-content-between mt-5">
                 <Link
