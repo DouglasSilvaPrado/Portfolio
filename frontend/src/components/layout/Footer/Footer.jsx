@@ -16,25 +16,25 @@ function Footer() {
                 href="https://www.linkedin.com/in/douglas-da-silva-prado-2633b8130/"
                 target="_blank"
               >
-                <i class="bi bi-linkedin mx-1" style={{ fontSize: 40 }}></i>
+                <i className="bi bi-linkedin mx-1" style={{ fontSize: 40 }}></i>
               </a>
               <a href="https://github.com/DouglasSilvaPrado" target="_blank">
-                <i class="bi bi-github mx-1" style={{ fontSize: 40 }}></i>
+                <i className="bi bi-github mx-1" style={{ fontSize: 40 }}></i>
               </a>
               <a
                 href="https://api.whatsapp.com/send?phone=5521990026135"
                 target="_blank"
               >
-                <i class="bi bi-whatsapp mx-1" style={{ fontSize: 40 }}></i>
+                <i className="bi bi-whatsapp mx-1" style={{ fontSize: 40 }}></i>
               </a>
               <a href="mailto:douglassilvadaprado@gmail.com" target="_blank">
-                <i class="bi bi-envelope mx-1" style={{ fontSize: 40 }}></i>
+                <i className="bi bi-envelope mx-1" style={{ fontSize: 40 }}></i>
               </a>
               <a
                 href="https://www.instagram.com/douglas_silva_prado/"
                 target="_blank"
               >
-                <i class="bi bi-instagram mx-1" style={{ fontSize: 40 }}></i>
+                <i className="bi bi-instagram mx-1" style={{ fontSize: 40 }}></i>
               </a>
             </div>
           </div>

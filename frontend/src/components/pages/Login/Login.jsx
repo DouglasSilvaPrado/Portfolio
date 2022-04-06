@@ -7,9 +7,8 @@ function Login() {
     
     function auth(event){
         event.preventDefault();
-        console.log(values.username, values.password)
         if(values.username === "douglasadm" && values.password === "superadm123"){
-            history.push("/")
+            history.push("/listProject")
         }else{
             alert("Usuario ou senha invalida!")
         }
