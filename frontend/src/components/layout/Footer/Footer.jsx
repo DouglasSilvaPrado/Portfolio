@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -41,6 +42,7 @@ function Footer() {
         </div>
 
         <div className="container-fluid bg-dark mt-5 text-white py-4">
+          <Link to={"/admin"} className="btn"></Link>
           <p className="text-center">© Todos os Diretos Reservados - Douglas da Silva Prado.</p>
         </div>
 
