@@ -8,6 +8,9 @@ import Navbar from './components/layout/Navbar/Navbar';
 import About from './components/pages/About/About';
 import Contact from './components/pages/Contact/Contact';
 import Footer from './components/layout/Footer/Footer';
+import Login from './components/pages/Login/Login';
+import ListProject from './components/Admin/ListProject/ListProject';
+import PagesProjectsForm from './components/Admin/PagesProjectsForm/PagesProjectsForm';
 
 function App() {
   return (
@@ -19,6 +22,10 @@ function App() {
         <Route path="/about" component={About} />
         <Route path="/contact" component={Contact} />
         <Route path="/project/:projectId" component={Project} />
+        <Route path="/admin" component={Login} />
+        <Route path="/listProject" component={ListProject} />
+        <Route path="/newProject" component={PagesProjectsForm} />
+        <Route path="/editProject/:id" component={PagesProjectsForm} />
       </Switch>
       <Footer />
     </>
