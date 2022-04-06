@@ -8,10 +8,21 @@ function ListProject() {
 
   useEffect(() => {
     axios.get(`${BASE_URL}/projects`).then((res) => {
-      console.log(res.data);
       setProjects(res.data);
     });
   }, []);
+
+  function deleteProject(id) {
+    const comfirmDelete = window.confirm("Tem Certeza que Deseja Excluir ?")
+    if(comfirmDelete){
+      axios.delete(`${BASE_URL}/projects/${id}`)
+      .then(res => {
+        setProjects(projects.filter((project) => project.id !== id));
+      }) 
+    }
+     
+  }
+
   return (
     <>
       <div className="container my-5">
@@ -40,7 +51,12 @@ function ListProject() {
                   >
                     Editar
                   </Link>
-                  <button className="btn btn-danger m-1">Excluir</button>
+                  <button
+                    className="btn btn-danger m-1"
+                    onClick={() => deleteProject(project.id)}
+                  >
+                    Excluir
+                  </button>
                 </td>
               </tr>
             ))}
