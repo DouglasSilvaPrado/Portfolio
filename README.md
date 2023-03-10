@@ -14,4 +14,3 @@ Implementei o backend no site, uma área administrativa para facilitar manutenç
 Código: https://github.com/DouglasSilvaPrado/Portfolio
 #
 Vídeo no YouTube: https://youtu.be/wjkudvbn5_0
-
